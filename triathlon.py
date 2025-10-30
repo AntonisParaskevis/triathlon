@@ -1,7 +1,7 @@
 while True:
     try:
         # Prompt the user to enter the number of hours spent running
-        hours_running = float(input("Enter the number of hours spend running\n"))
+        hours_running = float(input("Enter the number of hours spent running\n"))
         
         # If the user has entered either zero or a negative number, prompt them to enter a valid input
         if hours_running <= 0:
@@ -15,7 +15,7 @@ while True:
 # Same for the hours spent swimming and biking, respectively
 while True:
     try:
-        hours_swimming = float(input("Enter the number of hours spend swimming\n"))
+        hours_swimming = float(input("Enter the number of hours spent swimming\n"))
         
         if hours_swimming <= 0:
             print("Invalid entry, please enter a number greater than zero.")
@@ -26,7 +26,7 @@ while True:
 
 while True:
     try:
-        hours_biking = float(input("Enter the number of hours spend biking\n"))
+        hours_biking = float(input("Enter the number of hours spent biking\n"))
         
         if hours_biking <= 0:
             print("Invalid entry, please enter a number greater than zero.")
@@ -42,4 +42,5 @@ lost_weight = ((hours_biking * 200) + (hours_running * 475) + (hours_swimming * 
 print("Weight loss: " + str(round(lost_weight, 2)) + " pounds.")
 
 # In the end, prompt the user to press Enter, in order to exit the program
+
 input("Press Enter to exit the program")
